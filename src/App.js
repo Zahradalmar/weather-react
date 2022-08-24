@@ -1,15 +1,40 @@
 import React from "react";
-import Weather from "./Weather"
+
+
+
+import SearchWeather from "./SearchWeather";
+import "./Weather.css";
 import './App.css';
 
-function App() {
+
+
+  function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <h1>Hello from react</h1>
-        <Weather city="New York"/>
-      </header>
-    </div>
+   
+<div className="App">
+  
+
+      <h1>Weather App</h1>
+      <div className=" p-3">
+        <div className="container p-5 mb-4 bg-light rounded-3">
+        <SearchWeather city="Apple Valley" />
+        </div>
+      </div>
+      
+         
+         <footer>
+        <a
+          href="https://github.com/Zahradalmar/weather-react"
+          rel="noreferrer"
+        >
+          Open-source code
+        </a>{" "}
+        by Zahra Mohamed
+      </footer>
+   
+       
+      </div>
+       
   );
 }
 
