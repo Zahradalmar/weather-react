@@ -4,8 +4,8 @@ import React, { useState } from "react";
 import WeatherForecast from "./WeatherForecast";
 
 import axios from "axios";
-import "./App.css";
-import "./Weather.css";
+
+import "./SearchWeather.css";
 
 
 
@@ -91,7 +91,7 @@ let form = (
       <div className="loaded">
         {form}
         <p className="city">
-          Current Weather in {city}, {weather.country}
+          Current Weather in {props.city}, {weather.country}
         </p>
 
         <div className="row">

@@ -3,7 +3,7 @@ import React from "react";
 
 
 import SearchWeather from "./SearchWeather";
-import "./Weather.css";
+
 import './App.css';
 
 
